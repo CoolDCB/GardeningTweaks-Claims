@@ -11,13 +11,12 @@ repositories {
     mavenCentral()
     mavenLocal()
     maven { url = uri("https://hub.spigotmc.org/nexus/content/repositories/snapshots/") }
-    maven { url = uri("https://oss.sonatype.org/content/groups/public/") }
     maven { url = uri("https://repo.william278.net/snapshots") } // HuskClaims
-    maven { url = uri("https://jitpack.io") } // GardeningTweaks
+    maven { url = uri("https://jitpack.io") } // GardeningTweaks, GriefPrevention
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.20-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT")
     compileOnly("com.github.CoolDCB:GardeningTweaks:1.3")
     compileOnly("net.william278.huskclaims:huskclaims-bukkit:1.0-8818300")
     compileOnly("com.github.TechFortress:GriefPrevention:16.18")
