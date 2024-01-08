@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.20.2-R0.1-SNAPSHOT")
     compileOnly("com.github.CoolDCB:GardeningTweaks:1.3")
     compileOnly("net.william278.huskclaims:huskclaims-bukkit:1.0-8818300")
     compileOnly("com.github.TechFortress:GriefPrevention:16.18")
