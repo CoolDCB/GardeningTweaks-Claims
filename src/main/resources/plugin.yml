@@ -1,5 +1,9 @@
 name: GardeningTweaks-GriefPrevention
 version: '${version}'
-main: me.dave.gardeningtweaksgriefprevention.GardeningTweaks_GriefPrevention
+main: me.dave.gardeningtweaksclaims.GardeningTweaksClaims
 api-version: '1.16'
-depend: [GardeningTweaks, GriefPrevention]
+depend:
+  - GardeningTweaks
+softdepend:
+  - GriefPrevention
+  - HuskClaims
