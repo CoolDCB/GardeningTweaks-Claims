@@ -1,11 +1,11 @@
-package me.dave.gardeningtweaksclaims.events;
+package me.dave.gardeningtweaksclaims.listener;
 
 import me.dave.gardeningtweaks.api.events.SaplingReplantEvent;
 import me.dave.gardeningtweaksclaims.hook.Hook;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-public class GardeningTweaksEvents implements Listener {
+public class GardeningTweaksListener implements Listener {
 
     @EventHandler
     public void onSaplingReplant(SaplingReplantEvent event) {

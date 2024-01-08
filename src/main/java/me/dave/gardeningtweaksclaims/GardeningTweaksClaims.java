@@ -1,6 +1,6 @@
 package me.dave.gardeningtweaksclaims;
 
-import me.dave.gardeningtweaksclaims.events.GardeningTweaksEvents;
+import me.dave.gardeningtweaksclaims.listener.GardeningTweaksListener;
 import me.dave.gardeningtweaksclaims.hook.GriefPreventionHook;
 import me.dave.gardeningtweaksclaims.hook.Hook;
 import me.dave.gardeningtweaksclaims.hook.HuskClaimsHook;
@@ -22,7 +22,7 @@ public final class GardeningTweaksClaims extends JavaPlugin {
         addHook("GriefPrevention", () -> Hook.register(new GriefPreventionHook()));
         addHook("HuskClaims", () -> Hook.register(new HuskClaimsHook()));
 
-        pluginManager.registerEvents(new GardeningTweaksEvents(), this);
+        pluginManager.registerEvents(new GardeningTweaksListener(), this);
     }
 
     @Override
