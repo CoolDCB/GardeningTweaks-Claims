@@ -1,1 +1,1 @@
-rootProject.name = "GardeningTweaks-GriefPrevention"
+rootProject.name = "GardeningTweaks-Claims"
