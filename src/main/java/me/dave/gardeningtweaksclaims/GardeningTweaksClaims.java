@@ -34,7 +34,7 @@ public final class GardeningTweaksClaims extends JavaPlugin {
         PluginManager pluginManager = getServer().getPluginManager();
         if (pluginManager.getPlugin(pluginName) != null && pluginManager.getPlugin(pluginName).isEnabled()) {
             runnable.run();
-            getLogger().severe("Found plugin \"" + pluginName + "\". GardeningTweaks will now respect " + pluginName + " Claims.");
+            getLogger().info("Found plugin \"" + pluginName + "\". GardeningTweaks will now respect " + pluginName + " Claims.");
         }
     }
 }
